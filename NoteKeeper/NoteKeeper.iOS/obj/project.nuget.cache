@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "9ksdcp2cqg1xh0J3Y6CAOb0kaeAS3a3xurvP6e79VuFAJysmWzi5NWbSphJ0pRqtqiKm6xsaTfhJq8Vnm2CmBQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Moraki\\Desktop\\Xamarin Projects\\NoteKeeper\\NoteKeeper\\NoteKeeper.iOS\\NoteKeeper.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Moraki\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
+  ],
+  "logs": []
+}
