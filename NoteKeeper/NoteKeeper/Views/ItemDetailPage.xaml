@@ -7,21 +7,21 @@
              x:Class="NoteKeeper.Views.ItemDetailPage"
              Title="{Binding Title}">
 
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Cancel" Clicked="Cancel_Clicked"/>
+        <ToolbarItem Text="Save" Clicked="Save_Clicked"/>
+    </ContentPage.ToolbarItems>
+
     <StackLayout Spacing="20" Padding="15">
         
-        <Picker x:Name="NoteCourse" Title="Note course" FontSize="Medium">
-            <Picker.ItemsSource>
-                <x:Array Type="{x:Type x:String}">
-                    <x:String>Course 1</x:String>
-                    <x:String>Course 2</x:String>
-                    <x:String>Course 3</x:String>
-                </x:Array>
-            </Picker.ItemsSource>
+        <!-- source needs to be specified first before selected item -->
+        <Picker ItemsSource="{Binding CourseList}" SelectedItem="{Binding Note.Course}" x:Name="NoteCourse" Title="Note course" FontSize="Medium">
+            
         </Picker>
 
-        <Entry x:Name="NoteHeading" Placeholder="Note heading" FontSize="Medium" />
+        <Entry Text="{Binding Heading}" x:Name="NoteHeading" Placeholder="Note heading" FontSize="Medium" />
 
-        <Editor x:Name="NoteText" AutoSize="TextChanges" Placeholder="Note text" FontSize="Medium"/>
+        <Editor Text="{Binding Text}" x:Name="NoteText" AutoSize="TextChanges" Placeholder="Note text" FontSize="Medium"/>
 
     </StackLayout>
     

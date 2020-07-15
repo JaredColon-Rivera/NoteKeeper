@@ -5,6 +5,9 @@ using Xamarin.Forms.Xaml;
 
 using NoteKeeper.Models;
 using NoteKeeper.ViewModels;
+using System.Collections;
+using System.Collections.Generic;
+using NoteKeeper.Services;
 
 namespace NoteKeeper.Views
 {
@@ -14,26 +17,49 @@ namespace NoteKeeper.Views
     public partial class ItemDetailPage : ContentPage
     {
         ItemDetailViewModel viewModel;
-
+        public Note Note { get; set; }
+        public IList<String> CourseList { get; set; }
         public ItemDetailPage(ItemDetailViewModel viewModel)
         {
             InitializeComponent();
+            InitializeData();
            
-            BindingContext = this.viewModel = viewModel;
+            BindingContext = Note;
+            NoteCourse.BindingContext = this; // referencing our item detail page
         }
 
         public ItemDetailPage()
         {
             InitializeComponent();
-
-            var item = new Item
-            {
-                Text = "Item 1",
-                Description = "This is an item description."
-            };
-
-            viewModel = new ItemDetailViewModel(item);
-            BindingContext = viewModel;
+            InitializeData();
+           
+            BindingContext = Note;
+            NoteCourse.BindingContext = this; // referencing our item detail page
         }
+
+        async private void InitializeData()
+        {
+
+            var pluralsightDataStore = new MockPluralsightDataStore();
+            CourseList = await pluralsightDataStore.GetCoursesAsync();
+
+            Note = new Note
+            {
+                Heading = "Test note",
+                Text = "Text for the test note",
+                Course = CourseList[0]
+            };
+        }
+
+        private void Cancel_Clicked(object sender, EventArgs eventArgs)
+        {
+            DisplayAlert("Cancel Option", "Cancel was selected", "Button2", "Button1");
+        }
+
+        private void Save_Clicked(object sender, EventArgs eventArgs)
+        {
+            DisplayAlert("Save Option", "Save was selected", "Button2", "Button1");
+        }
+
     }
 }

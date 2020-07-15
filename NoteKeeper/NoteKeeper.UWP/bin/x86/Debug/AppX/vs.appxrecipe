@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-07-14T18:53:24.316</Modified>
+      <Modified>2020-07-15T20:35:43.579</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\NoteKeeper.UWP.exe">
       <PackagePath>entrypoint\NoteKeeper.UWP.exe</PackagePath>
-      <Modified>2020-07-14T18:53:15.774</Modified>
+      <Modified>2020-07-15T20:35:41.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Moraki\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.9\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -720,7 +720,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\bin\Debug\netstandard2.0\NoteKeeper.dll">
       <PackagePath>NoteKeeper.dll</PackagePath>
-      <Modified>2020-07-14T19:34:13.383</Modified>
+      <Modified>2020-07-15T20:39:38.121</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Moraki\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -895,11 +895,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-07-14T18:53:15.478</Modified>
+      <Modified>2020-07-15T20:35:40.802</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-07-14T18:53:15.478</Modified>
+      <Modified>2020-07-15T20:35:40.802</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -915,11 +915,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-07-14T18:53:19.622</Modified>
+      <Modified>2020-07-15T20:10:24.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper.UWP\bin\x86\Debug\Core\NoteKeeper.UWP.exe">
       <PackagePath>NoteKeeper.UWP.exe</PackagePath>
-      <Modified>2020-07-14T18:53:24.266</Modified>
+      <Modified>2020-07-15T20:35:43.565</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
