@@ -19,9 +19,9 @@
             
         </Picker>
 
-        <Entry Text="{Binding Heading}" x:Name="NoteHeading" Placeholder="Note heading" FontSize="Medium" />
+        <Entry Text="{Binding NoteHeading}" x:Name="NoteHeading" Placeholder="Note heading" FontSize="Medium" />
 
-        <Editor Text="{Binding Text}" x:Name="NoteText" AutoSize="TextChanges" Placeholder="Note text" FontSize="Medium"/>
+        <Editor Text="{Binding Note.Text}" x:Name="NoteText" AutoSize="TextChanges" Placeholder="Note text" FontSize="Medium"/>
 
     </StackLayout>
     

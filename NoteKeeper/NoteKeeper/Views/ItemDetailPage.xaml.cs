@@ -17,43 +17,24 @@ namespace NoteKeeper.Views
     public partial class ItemDetailPage : ContentPage
     {
         ItemDetailViewModel viewModel;
-        public Note Note { get; set; }
-        public IList<String> CourseList { get; set; }
         public ItemDetailPage(ItemDetailViewModel viewModel)
         {
             InitializeComponent();
-            InitializeData();
-           
-            BindingContext = Note;
-            NoteCourse.BindingContext = this; // referencing our item detail page
+            this.viewModel = viewModel;
+            BindingContext = viewModel;
         }
 
         public ItemDetailPage()
         {
             InitializeComponent();
-            InitializeData();
-           
-            BindingContext = Note;
-            NoteCourse.BindingContext = this; // referencing our item detail page
-        }
-
-        async private void InitializeData()
-        {
-
-            var pluralsightDataStore = new MockPluralsightDataStore();
-            CourseList = await pluralsightDataStore.GetCoursesAsync();
-
-            Note = new Note
-            {
-                Heading = "Test note",
-                Text = "Text for the test note",
-                Course = CourseList[0]
-            };
+            viewModel = new ItemDetailViewModel();
+            BindingContext = viewModel;
         }
 
         private void Cancel_Clicked(object sender, EventArgs eventArgs)
         {
-            DisplayAlert("Cancel Option", "Cancel was selected", "Button2", "Button1");
+            viewModel.NoteHeading = "XXXXXX";
+            DisplayAlert("Cancel Option", "Heading value is " + viewModel.Note.Heading, "Button2", "Button1");
         }
 
         private void Save_Clicked(object sender, EventArgs eventArgs)
