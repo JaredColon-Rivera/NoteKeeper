@@ -27,11 +27,18 @@ namespace NoteKeeper.Views
             BindingContext = viewModel = new ItemsViewModel();
         }
 
-        async void OnItemSelected(object sender, EventArgs args)
+        async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
         {
-            var layout = (BindableObject)sender;
-            var item = (Item)layout.BindingContext;
-            await Navigation.PushAsync(new ItemDetailPage(new ItemDetailViewModel(item)));
+            var note = args.SelectedItem as Note;
+            if(note == null)
+            {
+                return;
+            }
+
+            await Navigation.PushAsync(new ItemDetailPage(new ItemDetailViewModel(note)));
+
+            // Manually deselect item
+            ItemsListView.SelectedItem = null;
         }
 
         async void AddItem_Clicked(object sender, EventArgs e)
@@ -43,8 +50,8 @@ namespace NoteKeeper.Views
         {
             base.OnAppearing();
 
-            if (viewModel.Items.Count == 0)
-                viewModel.IsBusy = true;
+            if (viewModel.Notes.Count == 0)
+                viewModel.LoadItemsCommand.Execute(null);
         }
     }
 }

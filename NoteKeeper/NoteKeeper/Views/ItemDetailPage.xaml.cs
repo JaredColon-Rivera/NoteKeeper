@@ -20,13 +20,15 @@ namespace NoteKeeper.Views
         public ItemDetailPage(ItemDetailViewModel viewModel)
         {
             InitializeComponent();
+
             this.viewModel = viewModel;
-            BindingContext = viewModel;
+            BindingContext = this.viewModel;
         }
 
         public ItemDetailPage()
         {
             InitializeComponent();
+
             viewModel = new ItemDetailViewModel();
             BindingContext = viewModel;
         }
