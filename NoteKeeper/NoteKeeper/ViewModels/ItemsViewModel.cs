@@ -20,6 +20,15 @@ namespace NoteKeeper.ViewModels
             Title = "Browse";
             Notes = new ObservableCollection<Note>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
+
+            MessagingCenter.Subscribe<ItemDetailPage, Note>(this, "SaveNote", 
+                async (sender, note) => {
+
+                    Notes.Add(note);
+                    await PluralsightDataStore.AddNoteAsync(note);
+            
+                } );
+
         }
 
         async Task ExecuteLoadItemsCommand()

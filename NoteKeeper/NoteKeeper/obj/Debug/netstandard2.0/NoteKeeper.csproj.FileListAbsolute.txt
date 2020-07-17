@@ -1,22 +1,3 @@
-C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\bin\Debug\netstandard2.0\NoteKeeper.deps.json
-C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\bin\Debug\netstandard2.0\NoteKeeper.dll
-C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\bin\Debug\netstandard2.0\ref\NoteKeeper.dll
-C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\bin\Debug\netstandard2.0\NoteKeeper.pdb
-C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\NoteKeeper.csprojAssemblyReference.cache
-C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
-C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
-C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
-C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
-C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
-C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
-C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\NoteKeeper.AssemblyInfoInputs.cache
-C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\NoteKeeper.AssemblyInfo.cs
-C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\NoteKeeper.csproj.CoreCompileInputs.cache
-C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\NoteKeeper.dll
-C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\ref\NoteKeeper.dll
-C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\NoteKeeper.pdb
 C:\Users\JaredC\Documents\GitHub\NoteKeeper\NoteKeeper\NoteKeeper\bin\Debug\netstandard2.0\NoteKeeper.deps.json
 C:\Users\JaredC\Documents\GitHub\NoteKeeper\NoteKeeper\NoteKeeper\bin\Debug\netstandard2.0\NoteKeeper.dll
 C:\Users\JaredC\Documents\GitHub\NoteKeeper\NoteKeeper\NoteKeeper\bin\Debug\netstandard2.0\ref\NoteKeeper.dll
@@ -36,3 +17,22 @@ C:\Users\JaredC\Documents\GitHub\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\nets
 C:\Users\JaredC\Documents\GitHub\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\NoteKeeper.dll
 C:\Users\JaredC\Documents\GitHub\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\ref\NoteKeeper.dll
 C:\Users\JaredC\Documents\GitHub\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\NoteKeeper.pdb
+C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\bin\Debug\netstandard2.0\NoteKeeper.deps.json
+C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\bin\Debug\netstandard2.0\NoteKeeper.dll
+C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\bin\Debug\netstandard2.0\ref\NoteKeeper.dll
+C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\bin\Debug\netstandard2.0\NoteKeeper.pdb
+C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\NoteKeeper.csprojAssemblyReference.cache
+C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\NoteKeeper.AssemblyInfoInputs.cache
+C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\NoteKeeper.AssemblyInfo.cs
+C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\NoteKeeper.csproj.CoreCompileInputs.cache
+C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\NoteKeeper.dll
+C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\ref\NoteKeeper.dll
+C:\Users\Moraki\Desktop\Xamarin Projects\NoteKeeper\NoteKeeper\NoteKeeper\obj\Debug\netstandard2.0\NoteKeeper.pdb

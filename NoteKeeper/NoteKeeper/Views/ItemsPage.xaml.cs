@@ -35,7 +35,7 @@ namespace NoteKeeper.Views
                 return;
             }
 
-            await Navigation.PushAsync(new ItemDetailPage(new ItemDetailViewModel(note)));
+            await Navigation.PushModalAsync(new NavigationPage(new ItemDetailPage(new ItemDetailViewModel(note))));
 
             // Manually deselect item
             ItemsListView.SelectedItem = null;

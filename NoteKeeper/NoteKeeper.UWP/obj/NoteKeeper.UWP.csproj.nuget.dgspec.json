@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JaredC\\Documents\\GitHub\\NoteKeeper\\NoteKeeper\\NoteKeeper.UWP\\NoteKeeper.UWP.csproj": {}
+    "C:\\Users\\Moraki\\Desktop\\Xamarin Projects\\NoteKeeper\\NoteKeeper\\NoteKeeper.UWP\\NoteKeeper.UWP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JaredC\\Documents\\GitHub\\NoteKeeper\\NoteKeeper\\NoteKeeper.UWP\\NoteKeeper.UWP.csproj": {
+    "C:\\Users\\Moraki\\Desktop\\Xamarin Projects\\NoteKeeper\\NoteKeeper\\NoteKeeper.UWP\\NoteKeeper.UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JaredC\\Documents\\GitHub\\NoteKeeper\\NoteKeeper\\NoteKeeper.UWP\\NoteKeeper.UWP.csproj",
+        "projectUniqueName": "C:\\Users\\Moraki\\Desktop\\Xamarin Projects\\NoteKeeper\\NoteKeeper\\NoteKeeper.UWP\\NoteKeeper.UWP.csproj",
         "projectName": "NoteKeeper.UWP",
-        "projectPath": "C:\\Users\\JaredC\\Documents\\GitHub\\NoteKeeper\\NoteKeeper\\NoteKeeper.UWP\\NoteKeeper.UWP.csproj",
-        "packagesPath": "C:\\Users\\JaredC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JaredC\\Documents\\GitHub\\NoteKeeper\\NoteKeeper\\NoteKeeper.UWP\\obj\\",
+        "projectPath": "C:\\Users\\Moraki\\Desktop\\Xamarin Projects\\NoteKeeper\\NoteKeeper\\NoteKeeper.UWP\\NoteKeeper.UWP.csproj",
+        "packagesPath": "C:\\Users\\Moraki\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Moraki\\Desktop\\Xamarin Projects\\NoteKeeper\\NoteKeeper\\NoteKeeper.UWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\JaredC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Moraki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "uap10.0.16299"
@@ -31,8 +33,8 @@
         "frameworks": {
           "uap10.0.16299": {
             "projectReferences": {
-              "C:\\Users\\JaredC\\Documents\\GitHub\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj": {
-                "projectPath": "C:\\Users\\JaredC\\Documents\\GitHub\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj"
+              "C:\\Users\\Moraki\\Desktop\\Xamarin Projects\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj": {
+                "projectPath": "C:\\Users\\Moraki\\Desktop\\Xamarin Projects\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj"
               }
             }
           }
@@ -85,21 +87,23 @@
         }
       }
     },
-    "C:\\Users\\JaredC\\Documents\\GitHub\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj": {
+    "C:\\Users\\Moraki\\Desktop\\Xamarin Projects\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JaredC\\Documents\\GitHub\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj",
+        "projectUniqueName": "C:\\Users\\Moraki\\Desktop\\Xamarin Projects\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj",
         "projectName": "NoteKeeper",
-        "projectPath": "C:\\Users\\JaredC\\Documents\\GitHub\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj",
-        "packagesPath": "C:\\Users\\JaredC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JaredC\\Documents\\GitHub\\NoteKeeper\\NoteKeeper\\NoteKeeper\\obj\\",
+        "projectPath": "C:\\Users\\Moraki\\Desktop\\Xamarin Projects\\NoteKeeper\\NoteKeeper\\NoteKeeper\\NoteKeeper.csproj",
+        "packagesPath": "C:\\Users\\Moraki\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Moraki\\Desktop\\Xamarin Projects\\NoteKeeper\\NoteKeeper\\NoteKeeper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\JaredC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Moraki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -147,7 +151,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

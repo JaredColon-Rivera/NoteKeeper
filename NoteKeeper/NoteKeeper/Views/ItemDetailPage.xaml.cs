@@ -8,6 +8,7 @@ using NoteKeeper.ViewModels;
 using System.Collections;
 using System.Collections.Generic;
 using NoteKeeper.Services;
+using System.Net.Http;
 
 namespace NoteKeeper.Views
 {
@@ -35,13 +36,13 @@ namespace NoteKeeper.Views
 
         private void Cancel_Clicked(object sender, EventArgs eventArgs)
         {
-            viewModel.NoteHeading = "XXXXXX";
-            DisplayAlert("Cancel Option", "Heading value is " + viewModel.Note.Heading, "Button2", "Button1");
+            Navigation.PopModalAsync();
         }
 
         private void Save_Clicked(object sender, EventArgs eventArgs)
         {
-            DisplayAlert("Save Option", "Save was selected", "Button2", "Button1");
+            MessagingCenter.Send(this, "SaveNote", viewModel.Note);
+            Navigation.PopModalAsync();
         }
 
     }
